@@ -19,7 +19,8 @@ button{
   color: white;
   padding: 7px;
   border-radius: 8px;
-  margin-top: 2rem;
+  margin: 2rem;
+  cursor: pointer;
 }
 .container{
   max-width: 800px;
