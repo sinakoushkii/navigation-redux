@@ -12,8 +12,10 @@ export const navigationSlice = createSlice({
             state.count += 1
         },
         navigateTO:(state,action)=>{
-            window.location.pathname=""
-            window.location.href=action.payload.uri
+            state.uri=action.payload.uri
+            state.url=action.payload.url
+            window.location.href=state.uri
+         
         }
     }
 })
