@@ -3,17 +3,17 @@ import { createSlice } from '@reduxjs/toolkit'
 export const navigationSlice = createSlice({
     name: 'navigation',
     initialState: {
-      value: 0
+      count: 0
     },
     reducers: {
-        navigate:state=>{
-
-        }
+        increament: (state) => {
+            state.count += 1
+        },
     }
-  })
+})
 
   // Action creators are generated for each case reducer function
-export const { navigate } = counterSlice.actions
+export const { increament } = navigationSlice.actions
 
-export default counterSlice.reducer
+export default navigationSlice.reducer
   

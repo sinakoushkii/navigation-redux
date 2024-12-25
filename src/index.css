@@ -12,4 +12,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+button{
+  border: none;
+  outline: none;
+  background-color: rgb(16, 94, 184);
+  color: white;
+  padding: 7px;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+}
